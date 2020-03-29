@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #f6f6f6;
+    background-image: url("../images/register-back.jpg");
+}
+
+body{
+    text-align:center;
+}
+.divcss{
+    margin:0 auto;
+    width:400px;
+    height:100px;
+    border:1px solid #000;
+}
+
+.title-center {
+    position:relative;
+    width:100%;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    font-size: 28px;
+    color: #4d72e2;
+}
+.title-center div{
+    display: inline-block;
+    padding:0 20px;
+}
+.title-center:before ,.title-center:after{
+    display: inline-block;
+    position: relative;
+    content:"";
+    height:2px;
+    width:48px;
+    top:-6px;
+    background-color:#4d72e2;
+}
+
+nav {
+    float: left;
+    margin: auto 3em;
+    padding-left: 100px;
+}
+
+a {
+    color: #000000;
+    text-decoration:none;
+}
+
+.div-left{
+    float: right;
+    margin-top: 10px;
+}
+
+.div-right {
+    margin-right: 200px;
+    margin-top: 5px;
+    padding-right: 20px;
+    color: #000000;
+    float: right;
+}
+.contents{
+    padding: 10px;
+    margin: 20px 150px;
+    background-color: white;
+}
+
+.functions{
+    background-color: white;
+}
+
+a:hover{
+    color: #87bff2;
+}
+
+.title {
+    display: inline;
+    display: flex;
+    text-align: center;
+}
+
+section blockquote {
+    margin: 0;
+    width: 60%;
+    font-size: small;
+    background-color: #171a21;
+    padding: 0.7em;
+    color: #b8b6b4;
+    border-top: 1px solid rgba(85, 125, 171, 0.6)
+}
+
+p small {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+hr {
+    width: 90%;
+    margin: 0 5%;
+    border-width:0;
+    height: 1px;
+    color:rgba(85, 125, 171, 0.6);
+    background-color:rgba(85, 125, 171, 0.6);
+}
+
+h1 {
+    margin: 0.5em 4.5em;
+}
+
+input, textarea {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 35%;
+    background-color: #ffffff;
+    border: #56707f solid 1px;
+    border-radius: 3px;
+    color: #000000
+}
+
+select {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    position: relative;
+    vertical-align: middle;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #aaa;
+    text-shadow: none;
+    border-radius: 4px;
+    transition: box-shadow 0.25s ease;
+    z-index: 2;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: 2em;
+}
+
+input[type="button"],input[type="submit"]  {
+    background-color: #ffffff;
+    border: #171a21 solid 1px;
+    width: 4em;
+}
+
+input[type="button"],input[type="submit"],input[type="checkbox"], input[type="radio"], select:hover {
+    cursor: pointer;
+}
+
+textarea {
+    height: 15em;
+    width: 27em;
+}

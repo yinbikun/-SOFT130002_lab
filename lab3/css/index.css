@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #f6f6f6;
+}
+
+header {
+    color: #000000;
+    background-color: #ffffff;
+    text-align: center;
+    height: 70px;
+}
+
+.div-right {
+    margin-right: 200px;
+    margin-top: 5px;
+    padding-right: 20px;
+    float: right;
+    background: #666666;
+    width: 440px;
+    font: bold 22px/100% "微软雅黑", "Lucida Grande", "Lucida Sans", Helvetica, Arial, Sans;;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 0 #f96,-1px -1px 0 #f96;
+}
+
+section blockquote {
+    margin: 0;
+    width: 60%;
+    font-size: small;
+    background-color: #171a21;
+    padding: 0.7em;
+    color: #b8b6b4;
+    border-top: 1px solid rgba(85, 125, 171, 0.6)
+}
+
+.contents{
+    padding: 10px;
+    margin: 20px 150px;
+    background-color: white;
+}
+
+.functions{
+    background-color: white;
+}
+
+section ul li div{
+    font-family: "KaiTi";
+}
+
+
+
+
